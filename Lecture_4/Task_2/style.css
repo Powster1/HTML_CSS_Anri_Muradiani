@@ -1,0 +1,11 @@
+.myTable{
+   width: 500px;
+   height: 400px;
+   background-color: aqua;
+   margin: auto;
+   border: solid 1px black;
+}
+
+.myTable td{
+    border: solid black 8px;
+}
