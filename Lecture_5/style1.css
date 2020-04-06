@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+ }
+ 
+ div{
+   border: solid 10px black;
+   /* width: 100%; */
+   min-height: 200px; 
+   margin: auto;
+ }
+ 
+ .padding1{
+    padding: 80px;
+    box-sizing:border-box;
+    margin-left: 100px;
+    margin-right: 220px;
+    margin-bottom: 30px;
+ }
+ 
+ .padding2{
+    padding-left: 50px;
+    padding-top: 70px;
+ }
+ 
+  .inherit1 {
+    background-color: wheat;
+ }
+ 
+  .inherit1 > ul > li{
+    background-color: turquoise;
+    width: 200px;
+    border-bottom:solid 3px red;
+ }
+ 
+      .inherit1 > ul > li ul li{
+     background-color: blue;
+     width: 400px;
+     border-bottom:solid 3px yellow;
+  }
+ 
+   .innerdiv{
+     width: 100px;
+     height: 100px;
+     background-color: blue;
+     margin: unset;
+ }
+
+ 
